@@ -451,7 +451,7 @@ export default function AIPrompt() {
 
     {
       label: "List A/B Tests",
-      value: "SList all A/B tests in my 'e-commerce' application.",
+      value: "List all A/B tests in my 'e-commerce' application.",
     },
   ];
 
@@ -1074,7 +1074,7 @@ export default function AIPrompt() {
               className={cn(
                 "bg-white dark:zinc-800 rounded-2xl w-full p-1.5 animate-border shadow-zinc-300",
                 "[background:linear-gradient(45deg,#fff,#fff)_padding-box,conic-gradient(from_var(--border-angle),theme(colors.slate.200/.48)_80%,_theme(colors.indigo.500)_86%,_theme(colors.indigo.300)_90%,_theme(colors.indigo.500)_94%,_theme(colors.slate.600/.48))_border-box]",
-                "dark:[background:linear-gradient(45deg,#030303,#030303)_padding-box,conic-gradient(from_var(--border-angle),theme(colors.slate.200/.48)_80%,_theme(colors.indigo.500)_86%,_theme(colors.indigo.300)_90%,_theme(colors.indigo.500)_94%,_theme(colors.slate.200/.48))_border-box]",
+                "dark:[background:linear-gradient(45deg,#030303,#030303)_padding-box,conic-gradient(from_var(--border-angle),theme(colors.slate.600/.48)_80%,_theme(colors.indigo.500)_86%,_theme(colors.indigo.300)_90%,_theme(colors.indigo.500)_94%,_theme(colors.slate.200/.48))_border-box]",
                 "border border-transparent"
               )}
             >
