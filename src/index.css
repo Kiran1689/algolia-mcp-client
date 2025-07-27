@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* src/styles/scrollbar.css */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 8px;
+}
+
+
+/* Animate border with @property */
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+@keyframes borderRotate {
+  100% {
+    --border-angle: 1turn;
+  }
+}
+
+.animate-border {
+  animation: borderRotate 6s linear infinite;
+}
+
+/* src/index.css or global CSS */
+:root {
+  --bg-main: #fff;
+  --header: #000;
+  --bg-secondary: #f8fafc;
+  --text-main: #18181b;
+  --text-secondary: #393953;
+  --text-primary: #000;
+  --sidebar: #cbcbcb;
+  --border: #d4d4d8;
+  --button-bg: #f1f5f9;
+  --button-text: #18181b;
+  --input-bg: #f8fafc;
+  --scrollbar-track: #fafafa;
+  --scrollbar-thumb: #d4d4d8;
+  --prompt-bg: #d4d4d8;
+  --prompt-text: #000033;
+  --prompt-border: #18181b;
+  --prompt-hover: #0010ff;
+}
+
+.dark {
+  --bg-main: #09090b;
+  --header: #fff;
+  --bg-secondary: #18181b;
+  --text-main: #fafaf9;
+  --text-secondary: #9ca3af;
+  --text-primary: #fff;
+  --sidebar: #18181b;
+  --border: #27272a;
+  --button-bg: #18181b;
+  --button-text: #fafaf9;
+  --input-bg: #18181b;
+  --scrollbar-track: #202127;
+  --scrollbar-thumb: #626270;
+  --prompt-bg: rgb(0,0,0, 0.3);;
+  --prompt-text: #fff;
+  --prompt-border: #9ca3af;
+  --prompt-hover: #0010ff;
+
+}
+
+.algolia {
+  --bg-main: #000033;
+  --header: #000033;
+  --bg-secondary: #e6ebfa;
+  --sidebar: #BBD1FF;
+  --text-main: #fff;
+  --text-primary: #000;
+  --text-secondary: #6271a8;
+  --border: #BBD1FF;
+  --button-bg: #2660f6;
+  --button-text: #fff;
+  --input-bg: #e6ebfa;
+  --scrollbar-track: #000033;
+  --scrollbar-thumb: #d4d4d8;
+  --prompt-bg: rgb(0,16,255, 0.1);
+  --prompt-text: #000033;
+  --prompt-border: #000033;
+  --prompt-hover: #0010ff;
+}
+
