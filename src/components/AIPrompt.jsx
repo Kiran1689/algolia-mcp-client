@@ -722,7 +722,7 @@ export default function AIPrompt() {
 
                     {/* Button label */}
                     <span className="bg-[var(--text-main)] ml-1.5 bg-clip-text text-xs text-transparent group-hover:scale-105 transition-transform">
-                      <a href="https://kiran1689.github.io" target="_black">
+                      <a href="https://github.com/Kiran1689/algolia-mcp-client" target="_black">
                         Star on Github
                       </a>
                     </span>
