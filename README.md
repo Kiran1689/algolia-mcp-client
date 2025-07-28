@@ -18,7 +18,7 @@ A modern, responsive web MCP client for interacting with the Algolia Model Conte
 
 ### Prerequisites
 - Node.js (v18+ recommended)
-- MCP server running locally (see [MCP Proxy Server](https://github.com/algolia/mcp-proxy-server))
+- MCP server running locally (see [MCP Proxy Server](https://github.com/Kiran1689/mcp-proxy-server))
 
 ### Installation
 
